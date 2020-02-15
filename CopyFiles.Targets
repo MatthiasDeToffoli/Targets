@@ -1,0 +1,7 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="CopyFiles" >
+  <Target Name="CopyFiles">
+    <Message Text="Copy files in $(FilesDestDir)" Importance="high"/>
+    <Copy SourceFiles="@(MyFiles)" DestinationFolder="$(FilesDestDir)\%(RecursiveDir)" SkipUnchangedFiles="true"/>
+    <Message Text="Done" Importance="high"/>
+  </Target>
+</Project>

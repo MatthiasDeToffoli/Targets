@@ -1,0 +1,13 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >
+	<ItemGroup>
+		<Reference Include="UnityEditor">
+		  <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.2f1\Editor\Data\Managed\UnityEditor.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine">
+		  <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.2f1\Editor\Data\Managed\UnityEngine.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UI">
+		  <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.2f1\Editor\Data\UnityExtensions\Unity\GUISystem\Standalone\UnityEngine.UI.dll</HintPath>
+		</Reference>
+  </ItemGroup>
+</Project>
