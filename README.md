@@ -146,4 +146,4 @@ and in the csproj :
 ```  
 ___________________________________
 
-*Made with visual studio 2019*
+*All the targets was made with visual studio 2019*
