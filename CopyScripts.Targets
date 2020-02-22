@@ -9,6 +9,11 @@
 			<MyInterfaces Include="$(ProjectDir)Interfaces\**\*.*" />
 			<MyClasses Include="$(ProjectDir)Classes\**\*.*" />
 		</ItemGroup>
+		<Message Text="Start clear $(DestScriptsDir)" Importance="high" />
+		<Message Text="Clear Interfaces" Importance="high" />
+		<RemoveDir Directories="$(DirInterfaces)" Condition="Exists('$(DirInterfaces)')" />
+		<Message Text="Clear Classes" Importance="high" />
+		<RemoveDir Directories="$(DirClasses)" Condition="Exists('$(DirClasses)')" />
 		<Message Text="Start Copy scripts in $(DestScriptsDir)" Importance="high"/>
 		<Message Text="Start copy Interfaces" Importance="high"/>
 		<MakeDir Directories="$(DirInterfaces)" Condition="!Exists('$(DirInterfaces)')" />	  

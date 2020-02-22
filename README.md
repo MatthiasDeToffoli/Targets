@@ -96,7 +96,7 @@ and in your csproj you will just have :
 ## Copy scripts
 
 Copy all your C# scripts in a folder. I could used the copy files but this target say when it copy interfaces and when it copy classes and I like know this things. Also I don't have to specify wich files to copy because it will search Interfaces and Classes folders in your own project folder (where you find the csproj).  It can be usefull for create a save of your scripts.
-
+First of all the target will delete the folders Interfaces and Classes in the Output folder for clear all file which not exist in the input folder.
 It's more easy than the previous to use because you will not have to specify what files to take, it take all files recurcively in Classes and Interfaces.
 
 * As always start by include the target
