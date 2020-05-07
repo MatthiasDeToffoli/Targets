@@ -3,7 +3,7 @@ All my targets for visual studio MSBuild, Targets are specific actions which can
 
 ## Include Unity Dll
 
-The goal of the target is to include Unity Dll in your own project I added only UnityEditor, UnityEngine and UnityEngine.UI. If you use this target you will can create classes wich will use Unity API.
+The goal of the target is to include Unity Dll in your own project I added only UnityEditor, UnityEngine, UnityEngine.IMGUIModule, UnityEngine.CoreModule and UnityEngine.UI. If you use this target you will can create classes wich will use Unity API.
 
 For use it you just have to include the following line in your csproj
 
@@ -11,6 +11,7 @@ For use it you just have to include the following line in your csproj
 <Import Project="$(PathOfYourTargets)IncludeUnityDll.Targets" 
         Condition="exists('$(PathOfYourTargets)IncludeUnityDll.Targets')" />
 ```
+the paths of the dlls to include is the ones of Unity 2019.3.13f1
 
 ## Copy files
 Copy one or many files in a specific folder, for example I use it for copy my librairies dll in my projects automatically just after the build.
@@ -144,6 +145,6 @@ and in the csproj :
 	<CallTarget Targets="CopyScriptsByMyTarget"/>
 </Target
 ```  
-___________________________________
+___
 
-*All the targets was made with visual studio 2019*
+*<sub>Made with Unity 2019.3.13f1 , Visual studio Community 2019 and .Net Standard 2.1</sub>*
