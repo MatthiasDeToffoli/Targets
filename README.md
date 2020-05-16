@@ -57,7 +57,7 @@ you can also add multiple targets in the two attributes :
 ```
 ## Include Unity Dll
 
-The goal of the target is to include Unity Dll in your own project I added only UnityEditor, UnityEngine, UnityEngine.IMGUIModule, UnityEngine.CoreModule and UnityEngine.UI. If you use this target you will can create classes wich will use Unity API.
+The goal of the target is to include Unity Dll in your own project I added only UnityEditor, UnityEngine, UnityEngine.IMGUIModule, UnityEngine.CoreModule, UnityEngine.TextRenderingModule and UnityEngine.UI. If you use this target you will can create classes wich will use Unity API.
 
 For use it you just have to include the following line in your csproj
 
