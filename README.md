@@ -183,4 +183,4 @@ and in the csproj :
 ```  
 ___
 
-*<sub>Made with Unity 2020.1.0f1 , Visual studio Community 2019 and .Net Standard 2.1</sub>*
+*<sub>Made with Unity 2021.3.5f1 , Visual studio Community 2022 version 17.2.1 and .Net Standard 2.1</sub>*
